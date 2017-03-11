@@ -2,17 +2,27 @@
 
 class Blog
 {
-
+   public static function getPostById($id)
+   {
+    $id = intval($id);
+       
+       if($id) {
+           $db = Db::getConnection();
+           $result = $db->query('SELECT * FROM post WHERE id ='. $id);
+           $result->setFetchMode(PDO::FETCH_ASSOC);
+           $postItem = $result->fetch();
+           return $postItem;
+       }
+   }
+    
+    
     public static function getBlogList() {
  
         $db = Db::getConnection();
         
         $blogList = [];
         
-        $result = $db->query('SELECT id, title, text, author '
-                . 'FROM post '
-                . 'ORDER BY date DESC '
-                . 'LIMIT 5');
+        $result = $db->query('SELECT id, title, text, author FROM post');
 
         $i = 0;
         while($row = $result->fetch()) {

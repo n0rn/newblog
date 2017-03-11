@@ -1,104 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <title>Главная</title>
-        <link href="/template/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/template/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/template/css/prettyPhoto.css" rel="stylesheet">
-        <link href="/template/css/price-range.css" rel="stylesheet">
-        <link href="/template/css/animate.css" rel="stylesheet">
-        <link href="/template/css/main.css" rel="stylesheet">
-        <link href="/template/css/responsive.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->       
-        <link rel="shortcut icon" href="/template/images/ico/favicon.ico">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/template/images/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/template/images/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/template/images/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="/template/images/ico/apple-touch-icon-57-precomposed.png">
-    </head><!--/head-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <title>Bootstrap Free Blog Template</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="/template/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="/template/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="/template/css/style.css" rel="stylesheet" />
+</head>
+<body>
 
-    <body>
-        <header id="header"><!--header-->
-            <div class="header_top"><!--header_top-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="contactinfo">
-                                <ul class="nav nav-pills">
-                                    <li><a href="#"><i class="fa fa-phone"></i> +38 093 000 11 22</a></li>
-                                    <li><a href="#"><i class="fa fa-envelope"></i> zinchenko.us@gmail.com</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="social-icons pull-right">
-                                <ul class="nav navbar-nav">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/header_top-->
 
-            <div class="header-middle"><!--header-middle-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="logo pull-left">
-                                <a href="index.html"><img src="/template/images/home/logo.png" alt="" /></a>
-                            </div>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="shop-menu pull-right">
-                                <ul class="nav navbar-nav">                                    
-                                    <li><a href="#"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
-                                    <li><a href="#"><i class="fa fa-user"></i> Аккаунт</a></li>
-                                    <li><a href="#"><i class="fa fa-lock"></i> Вход</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/header-middle-->
+<section class="header-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="/template/img/person.jpg" class="img-circle img-responsive" />
+            </div>
+            <div class="col-md-5 text-center">
+                <h1><strong>Jhon Alexan </strong></h1>
+                <h4>Blogger & Designer</h4>
+            </div>
+            <div class="col-md-5">
+                <h3>WHO M I :</h3>
 
-            <div class="header-bottom"><!--header-bottom-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="mainmenu pull-left">
-                                <ul class="nav navbar-nav collapse navbar-collapse">
-                                    <li><a href="/">Главная</a></li>
-                                    <li class="dropdown"><a href="#">Магазин<i class="fa fa-angle-down"></i></a>
-                                        <ul role="menu" class="sub-menu">
-                                            <li><a href="/catalog/">Каталог товаров</a></li>
-                                            <li><a href="/cart/">Корзина</a></li> 
-                                        </ul>
-                                    </li> 
-                                    <li><a href="/blog/">Блог</a></li> 
-                                    <li><a href="/about/">О магазине</a></li>
-                                    <li><a href="/contacts/">Контакты</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div><!--/header-bottom-->
-            
-        </header><!--/header-->
+                I am a 26 years old guy who loves bloggging and designing .
+                I will provide all my works for free here with some good piece of information.
+                You can reach me at <i><strong>info@mydomain.com</strong></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!--HOME SECTION END-->
